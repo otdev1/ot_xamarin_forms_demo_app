@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordAppDemo.MainPage">
+
+    <StackLayout VerticalOptions="Center" Margin="20,0"> <!--margin values: left, top, right, bottom but in this case 20 is applied to left and right and 0 is applied to top and bottom -->
+        <Entry x:Name="emailEntry" Placeholder="Email address" Keyboard="Email"/> 
+        <!--the keyboard property allows the entry tag to change the keyboard the target operating system displays
+            in this case the email value displays a keyboard that provides easier access to the @ sign-->
+        <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"/> 
+        <!--ispassword is boolean property-->
+        <Button x:Name="LogInButton"
+                Margin="0,50,0,0"
+                Text="Log in"
+                Clicked="LogInButton_Clicked"
+                BackgroundColor="DodgerBlue"
+                TextColor="White"/> <!--LoginButton Clicked is the custom event habdler for this Button-->
+    </StackLayout>
+
+</ContentPage>

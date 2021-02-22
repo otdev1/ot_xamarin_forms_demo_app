@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CadZnqMt3kgI595vi2qtonp+IzbXI+FI7YMCdykfI0bjKHn+d2edKpTEgxsrS8KB3YtpwHeVcL0Y+x9B1veepg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OT\\source\\repos\\TravelRecordAppDemo\\TravelRecordAppDemo.iOS\\TravelRecordAppDemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

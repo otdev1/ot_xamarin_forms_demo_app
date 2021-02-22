@@ -1,0 +1,14 @@
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\bin\Debug\netstandard2.0\TravelRecordAppDemo.deps.json
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\bin\Debug\netstandard2.0\TravelRecordAppDemo.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\bin\Debug\netstandard2.0\ref\TravelRecordAppDemo.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\bin\Debug\netstandard2.0\TravelRecordAppDemo.pdb
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.AssemblyInfoInputs.cache
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.AssemblyInfo.cs
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.csproj.CoreCompileInputs.cache
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\ref\TravelRecordAppDemo.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.pdb
