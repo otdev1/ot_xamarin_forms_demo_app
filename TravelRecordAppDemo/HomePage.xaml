@@ -1,13 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordAppDemo.HomePage">
-    <!--<ContentPage.Content>-->
+    <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <!--<Label>Welcome to Xamarin.Forms!<Label/> is equivalent to the code above-->
+            <Label>Welcome to Xamarin.Forms!<Label/> is equivalent to the code above
         </StackLayout>
-    <!--</ContentPage.Content>-->
-</ContentPage>
+    </ContentPage.Content>
+</ContentPage>-->
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TravelRecordAppDemo"
+             x:Class="TravelRecordAppDemo.HomePage">
+    <!--xmlns - xaml namespace-->
+    <local:HistoryPage Title="History"/> 
+    <local:MapPage Title="Map"/>
+    <local:ProfilePage Title="Profile"/>
+    <!--the name property 'local' is defined by xmlns:local and enables access to other pages in the app-->
+</TabbedPage>
