@@ -3,18 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordAppDemo.MainPage">
 
+    <!--<ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="blueColor">#1E90FF</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>-->
+    <!--each xaml page has its own resources-->
+
     <StackLayout VerticalOptions="Center" Margin="20,0"> <!--margin values: left, top, right, bottom but in this case 20 is applied to left and right and 0 is applied to top and bottom -->
-        <Entry x:Name="emailEntry" Placeholder="Email address" Keyboard="Email"/> 
-        <!--the keyboard property allows the entry tag to change the keyboard the target operating system displays
-            in this case the email value displays a keyboard that provides easier access to the @ sign-->
-        <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"/> 
-        <!--ispassword is boolean property-->
+        <Entry x:Name="emailEntry" 
+                Placeholder="Email address" 
+                TextColor="{StaticResource blueColor}"
+                Keyboard="Email"/> 
+                <!--the keyboard property allows the entry tag to change the keyboard the target operating system displays
+                    in this case the email value displays a keyboard that provides easier access to the @ sign
+                    see app.xaml for resourcedictionary definition which provides the static resource-->
+        <Entry x:Name="passwordEntry" 
+               Placeholder="Password" 
+               TextColor="{StaticResource blueColor}"
+               IsPassword="True"/> 
+        <!--ispassword is boolean property
+            staticresource is a reference to contentpage.resource-->
         <Button x:Name="LogInButton"
                 Margin="0,50,0,0"
                 Text="Log in"
                 Clicked="LogInButton_Clicked"
-                BackgroundColor="DodgerBlue"
-                TextColor="White"/> <!--LoginButton Clicked is the custom event habdler for this Button-->
+                /> 
+               <!--LoginButton Clicked is the custom event habdler for this Button
+                see mainpage.xaml.cs for definition of this function
+                note that this button has properties which are set within the style element of app.xaml-->
     </StackLayout>
 
 </ContentPage>

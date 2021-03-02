@@ -15,3 +15,5 @@ C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netst
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.dll
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\ref\TravelRecordAppDemo.dll
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.pdb
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\TravelRecordAppDemo.csprojAssemblyReference.cache
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo\obj\Debug\netstandard2.0\NewTravelPage.xaml.g.cs

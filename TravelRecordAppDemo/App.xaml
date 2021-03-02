@@ -3,6 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordAppDemo.App">
     <Application.Resources>
+        <ResourceDictionary>
+            
+            <Color x:Key="blueColor">#1E90FF</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
 
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style><!--apply styling to button elements only if a style does not have a name it will be applied
+                        to all the each instance of the type it targets, this behavior is called implicit styling-->
+            
+        </ResourceDictionary><!--provides this reource across the entire application-->
     </Application.Resources>
 </Application>

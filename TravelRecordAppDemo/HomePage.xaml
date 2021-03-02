@@ -17,6 +17,13 @@
              xmlns:local="clr-namespace:TravelRecordAppDemo"
              x:Class="TravelRecordAppDemo.HomePage">
     <!--xmlns - xaml namespace-->
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="ToolbarItem_Clicked" /> <!--see homepage.xaml.cs for toolbaritem_clicked definition-->
+    </TabbedPage.ToolbarItems>
+    <!--a toolbar item is an item(button) that is always in the title bar, the toolbar item is available
+        to every page-->
+
     <local:HistoryPage Title="History"/> 
     <local:MapPage Title="Map"/>
     <local:ProfilePage Title="Profile"/>

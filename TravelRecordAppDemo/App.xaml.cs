@@ -15,7 +15,8 @@ namespace TravelRecordAppDemo
             MainPage = new NavigationPage(new MainPage()); 
             /*a navigation page is necessary in order to manage navigation to and from all pages in the app
              in order for this page to work a root must be set for it in this case mainpage
-            the navigation page function will also add a back button to the user interface*/
+            the navigation page function will also add a back button to the user interface
+            see mainpage.xaml*/
         }
 
         protected override void OnStart()
