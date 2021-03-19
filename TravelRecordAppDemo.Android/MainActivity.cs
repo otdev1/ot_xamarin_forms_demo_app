@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.IO;
 
 namespace TravelRecordAppDemo.Droid
 {
@@ -21,7 +22,19 @@ namespace TravelRecordAppDemo.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+
+            string dbName = "travel_db.sqlite";
+            string folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            /*GetFolderPath function returns the path of the folder passed as the parameter in this case the
+            Personal folder*/
+            
+            string fullPath = Path.Combine(folderPath, dbName);
+            /*Path.Combine function creates a path string e.g \somepath\travel_db.sqlite by combining the string
+            parameters passed to it*/
+
+            //LoadApplication(new App());
+            LoadApplication(new App(fullPath));
+            /*pass full path to the second app constructor see app.xaml.cs*/
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

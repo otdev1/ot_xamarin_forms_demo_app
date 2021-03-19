@@ -24,14 +24,24 @@
                IsPassword="True"/> 
         <!--ispassword is boolean property
             staticresource is a reference to contentpage.resource-->
-        <Button x:Name="LogInButton"
+        
+        <!--Implicitly styled button-->
+        <!--<Button x:Name="LogInButton"
                 Margin="0,50,0,0"
                 Text="Log in"
                 Clicked="LogInButton_Clicked"
-                /> 
-               <!--LoginButton Clicked is the custom event habdler for this Button
-                see mainpage.xaml.cs for definition of this function
-                note that this button has properties which are set within the style element of app.xaml-->
+                />-->
+        <!--LoginButton Clicked is the custom event habdler for this Button
+        see mainpage.xaml.cs for definition of this function
+        note that this button has properties which are set within the style element of app.xaml-->
+        
+        <!--Explicitly styled button-->
+        <Button x:Name="LoginButton"
+                Margin="0,50,0,0"
+                Text="Log in"
+                Clicked="LogInButton_Clicked"
+                Style="{StaticResource normalButton}"/>
+                <!--explicit form of styling see app.xaml-->
     </StackLayout>
 
 </ContentPage>

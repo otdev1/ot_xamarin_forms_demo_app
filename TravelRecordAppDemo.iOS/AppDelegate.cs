@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using System.IO;
 
 namespace TravelRecordAppDemo.iOS
 {
@@ -23,7 +24,22 @@ namespace TravelRecordAppDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            string dbName = "travel_db.sqlite";
+
+            string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
+            /*get the path of the library folder by navigating outside of the personal folder to 
+             its parent folder in which Library is stored*/
+
+            string fullPath = Path.Combine(folderPath, dbName);
+            /*Path.Combine function creates a path string e.g \somepath\travel_db.sqlite by combining the string
+            parameters passed to it*/
+
+            //LoadApplication(new App());
+            LoadApplication(new App(fullPath));
+            /*pass full path to the second app constructor see app.xaml.cs*/
+
+            //LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }

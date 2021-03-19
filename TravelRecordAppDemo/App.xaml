@@ -8,12 +8,20 @@
             <Color x:Key="blueColor">#1E90FF</Color>
             <Color x:Key="whiteColor">#FFFFFF</Color>
 
-            <Style TargetType="Button">
+            <!--<Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
                 <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
-            </Style><!--apply styling to button elements only if a style does not have a name it will be applied
-                        to all the each instance of the type it targets, this behavior is called implicit styling-->
-            
+            </Style>-->
+            <!--apply styling to button elements only if a style does not have a name it will be applied
+                to all the each instance of the type it targets, this behavior is called implicit styling-->
+
+            <Style x:Key="normalButton"  TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
+            <!--explicit styling - this style can be applied by setting the the style property of the relevant
+               instance of the type (in this case button) which this style targets with staticresource followed by the value of x:Key see mainpage.xaml-->
+
         </ResourceDictionary><!--provides this reource across the entire application-->
     </Application.Resources>
 </Application>

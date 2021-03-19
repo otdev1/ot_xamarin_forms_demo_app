@@ -1,5 +1,13 @@
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\TravelRecordAppDemo.iOS.exe
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\TravelRecordAppDemo.iOS.pdb
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Users\OT\source\repos\TravelRecordAppDemo\TravelRecordAppDemo.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
