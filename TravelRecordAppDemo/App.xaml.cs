@@ -20,7 +20,8 @@ namespace TravelRecordAppDemo
             see mainpage.xaml*/
         }
 
-        /*second constructor*/
+        /*second constructor, this constructor function is called in LoadApplication function
+         * in MainActivity.cs(Android) and AppDelegate.cs(iOS)*/
         public App(string databaseLocation)
         {
             InitializeComponent();

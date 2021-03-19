@@ -15,7 +15,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Entry x:Name="expretienceEntry"
+            <Entry x:Name="experienceEntry"
                    Placeholder="Write your experience"/>
         </StackLayout>
     </ContentPage.Content>

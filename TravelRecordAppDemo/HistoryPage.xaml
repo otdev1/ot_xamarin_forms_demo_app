@@ -2,11 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordAppDemo.HistoryPage">
-    <ContentPage.Content>
+    <!--<ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to the History Page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
-    </ContentPage.Content>
+    </ContentPage.Content>-->
+    <ListView x:Name="postListView" ItemSelected="Handle_ItemSelected">
+        <!--ItemSelected is an event triggered when a user selects an item see HistoryPage.xaml.cs for deinition of Handle_ItemSelected event handler-->
+        <ListView.ItemTemplate> <!--ItemTemplate is used for each row of the ListView, each row corresponds to 1 record from the Post table-->
+            <DataTemplate>
+                <TextCell Text="{Binding Experience}"/> <!--display the Experience property of a post object-->
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    <!--listview element allows a list of other elements to be displayed in the app user interface
+        postListView will be used as an identifier in HistoryPage.xaml.cs-->
 </ContentPage>
