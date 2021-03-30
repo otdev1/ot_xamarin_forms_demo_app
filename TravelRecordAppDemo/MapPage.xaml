@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordAppDemo.MapPage">
     <ContentPage.Content>
@@ -9,4 +9,16 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
+</ContentPage>-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="TravelRecordAppDemo.MapPage"> <!--common language runtime-->
+    <maps:Map x:Name="locationsMap"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand"
+              MapType="Hybrid"/>
+                <!--definition for Map in maps namespace
+                    MapType="Hybrid" causes the satellite image along with 2d highlight of road networks to
+                    be displayed, the map is displayed in 2d by default-->
 </ContentPage>

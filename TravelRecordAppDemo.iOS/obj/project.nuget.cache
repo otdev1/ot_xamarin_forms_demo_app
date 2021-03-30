@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BaUPlh1oQ5LeCUvsqWBdwWeTbZoqWcBurqzgrxOCgIJhM3gB3vOI04q/wz000lxIcHPhykxKvr4FPYeQH15V4A==",
+  "dgSpecHash": "hs14O+TyPYX3KsBsvBg3r5S2OEUsiJv8HggYHW8nxsakAucZRzsAXajUmO7906k40/km8cMlddx9a/Yx8hVZHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\OT\\source\\repos\\TravelRecordAppDemo\\TravelRecordAppDemo.iOS\\TravelRecordAppDemo.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OT\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
     "C:\\Users\\OT\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\OT\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\OT\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -12,7 +13,8 @@
     "C:\\Users\\OT\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\OT\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\OT\\.nuget\\packages\\xamarin.forms.maps\\4.8.0.1451\\xamarin.forms.maps.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }

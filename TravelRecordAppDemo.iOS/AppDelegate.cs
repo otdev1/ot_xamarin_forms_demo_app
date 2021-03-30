@@ -24,6 +24,9 @@ namespace TravelRecordAppDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //notifies the ios project that it will be initialized through xamarin forms
+
+            Xamarin.FormsMaps.Init(); //initializes ios project to use xamarin forms with maps
 
             string dbName = "travel_db.sqlite";
 
